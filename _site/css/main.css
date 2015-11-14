@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body {
+  margin: 2.4em;
+  line-height: 1.6em;
+  font-size: 2.8em;
+  color: #444;
+  padding: 0 1em;
+  font-family: "游ゴシック体","YuGothic","游ゴシック"; }
+
+h1, h2, h3 {
+  line-height: 1.2;
+  font-size: 2em; }
+
+a {
+  text-decoration: none;
+  border-bottom: 0px;
+  transition: 0.4 ease; }
+
+a:link,
+a:visited {
+  color: #265C83; }
+
+a:hover {
+  transition: 0.4 ease;
+  text-decoration: underline;
+  width: 30px; }
+
+a:active {
+  transition: .4s ease; }
+
+.social-media-list li {
+  width: 50px; }
