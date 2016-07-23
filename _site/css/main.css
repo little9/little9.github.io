@@ -2,7 +2,7 @@
 body {
   margin: 2.4em;
   line-height: 1.6em;
-  font-size: 2.8em;
+  font-size: 1.5em;
   color: #444;
   padding: 0 1em;
   font-family: "游ゴシック体","YuGothic","游ゴシック"; }
@@ -15,6 +15,16 @@ a {
   text-decoration: none;
   border-bottom: 0px;
   transition: 0.4 ease; }
+
+.external-links {
+  display: inline;
+  list-style-type: none;
+  padding-left: 0; }
+
+.external-links li {
+  display: inline;
+  padding-right: 10%;
+  margin-bottom: 2%; }
 
 a:link,
 a:visited {

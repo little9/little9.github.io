@@ -18,6 +18,18 @@ a {
   transition: 0.4 ease;
 }
 
+.external-links {
+display: inline;
+list-style-type: none;;
+padding-left:0;
+}
+
+.external-links li {
+    display:inline;
+    padding-right:10%;
+    margin-bottom:2%;
+}
+
 
 a:link,
 a:visited { color: #265C83; }
