@@ -1,48 +1,15 @@
-body
-{
-    margin: 2.4em;
-    line-height:1.6em;
-    font-size: 1.5em;
-    color:#444;
-    padding:0 1em;
-    font-family:"游ゴシック体","YuGothic","游ゴシック";
-}
-h1,h2,h3{
-    line-height:1.2;
-	font-size:2em;
-}
+/*font-family:"游ゴシック体","YuGothic","游ゴシック";*/
+@charset "UTF-8";
+body {/* margin: 2.4em; *//* line-height: 1.6em; *//* font-size: 1.5em; *//* color: #444; */padding: 0 1em;font-family: monospace;background: #f1f1f1;transform: rotate(.5deg);}
 
-a {
-  text-decoration:none;
-  border-bottom: 0px;
-  transition: 0.4 ease;
-}
+h1, h2, h3 {/* line-height: 1.2; *//* font-size: 2em; */transform: rotate(1.5deg);margin-top: 1em;font-family: "Microsoft Sans Serif";}
 
-.external-links {
-display: inline;
-list-style-type: none;;
-padding-left:0;
-}
+a {text-decoration: none;border-bottom: 0px;transition: 0.4 ease;padding: 5px;background: rgba(240, 255, 115, 0.3);/* box-shadow: 1px 1px 0px 1px black; *//* border-top: 1px dotted grey; */color: black;/* transform: rotate(10deg); */font-family: "Microsoft Sans Serif";}
 
-.external-links li {
-    display:inline;
-    padding-right:10%;
-    margin-bottom:2%;
-}
+a {}
 
+.external-links {/* display: inline; */list-style-type: urdu;padding-left: 0;}
 
-a:link,
-a:visited { color: #265C83; }
-a:hover   { 
-transition: 0.4 ease;
-text-decoration:underline;
-width:30px;
-}
-a:active  {
-  transition:  .4s ease;
-}
+.external-links li {display: inline;padding-right: 10%;margin-bottom: 15%;color: black;transform: rotate(10deg);}
 
-
-.social-media-list li {
-width:50px;
-}
+.social-media-list li { width: 50px; }
