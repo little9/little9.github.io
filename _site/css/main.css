@@ -1,21 +1,14 @@
-@charset "UTF-8";
-/*font-family:"游ゴシック体","YuGothic","游ゴシック";*/
 body {
-  /* margin: 2.4em; */
-  /* line-height: 1.6em; */
-  /* font-size: 1.5em; */
-  /* color: #444; */
   padding: 0 1em;
-  font-family: monospace;
+  font-family: "PT Mono",monospace;
   background: #f1f1f1;
-  transform: rotate(0.5deg); }
+  transform: rotate(0.5deg);
+  max-width: 800px; }
 
 h1, h2, h3 {
-  /* line-height: 1.2; */
-  /* font-size: 2em; */
   transform: rotate(1.5deg);
   margin-top: 1em;
-  font-family: "Microsoft Sans Serif"; }
+  font-family: "PT Sans","Microsoft Sans Serif",sans-serif; }
 
 a {
   text-decoration: none;
@@ -23,14 +16,10 @@ a {
   transition: 0.4 ease;
   padding: 5px;
   background: rgba(240, 255, 115, 0.3);
-  /* box-shadow: 1px 1px 0px 1px black; */
-  /* border-top: 1px dotted grey; */
   color: black;
-  /* transform: rotate(10deg); */
-  font-family: "Microsoft Sans Serif"; }
+  font-family: "PT Sans","Microsoft Sans Serif", sans-serif; }
 
 .external-links {
-  /* display: inline; */
   list-style-type: urdu;
   padding-left: 0; }
 

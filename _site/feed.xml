@@ -5,9 +5,48 @@
     <description></description>
     <link>http://little9.github.io/</link>
     <atom:link href="http://little9.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Aug 2016 16:34:45 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Aug 2016 16:34:45 -0400</lastBuildDate>
+    <pubDate>Sun, 28 Aug 2016 19:50:53 -0400</pubDate>
+    <lastBuildDate>Sun, 28 Aug 2016 19:50:53 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Practical Tor Hidden Services</title>
+        <description>&lt;p&gt;Tor’s hidden service protocol is normally called the ‘Dark Web’ in the
+media (if you’ve seen a URL ending with .onion, that’s a hidden service). The protocol is what enables people to publish web services that are
+accessible on the Tor network. Perhaps the most famous hidden service
+was Silk Road before it was shut down. Mainstream publications like
+&lt;a href=&quot;https://www.propub3r6espa33w.onion&quot;&gt;ProPublica&lt;/a&gt; and even Facebook also run hidden services to protect their users.&lt;/p&gt;
+
+&lt;p&gt;The primary purpose of the protocol is to enable anonymous publishing and consumption
+of content, but the protocol can also be used as another way to expose your content
+(like ProPublica) or used as a practical tool for getting work done on the Internet. In
+the specific case of publishing, setting up a Tor hidden service is easier than
+buying a domain, setting up a server, and configuring a firewall and DNS. After setting up
+a hidden service, it’s also available to users not using Tor via &lt;a href=&quot;https://tor2web.org/&quot;&gt;Tor2web&lt;/a&gt; Another benefit
+of publishing on Tor is that mangaing certificates for HTTPS isn’t necessary.&lt;/p&gt;
+
+&lt;p&gt;Hidden services aren’t limited to HTTP and can  expose other network
+services like SSH. This could allow you to setup a remote login
+to your home network that accessible anywhere you can get Tor up and running.
+Normally to do that you would need to setup dynamic DNS or would need to pay
+for a static IP. Having that service on Tor provides another layer of security
+that you wouldn’t have if your SSH service was directly on the Internet. The
+hidden service can also be configured to only allow certain clients to connect to the
+service providing yet another layer of security for your service. This kind of functionality
+is similar to the &lt;a href=&quot;https://ngrok.com/&quot;&gt;ngrok&lt;/a&gt; software, but uses the Tor infrastructure.&lt;/p&gt;
+
+&lt;p&gt;The documentation for &lt;a href=&quot;https://www.torproject.org/docs/tor-hidden-service.html.en&quot;&gt;setting up a hidden service &lt;/a&gt; is well-written, and there is
+a &lt;a href=&quot;https://riseup.net/en/security/network-security/tor/onionservices-best-practices&quot;&gt;hidden services best practices&lt;/a&gt; document that includes additional information about
+setting them up. Using the Python Stem library, it’s possible to create &lt;a href=&quot;https://stem.torproject.org/tutorials/over_the_river.html&quot;&gt;hidden services programmatically&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Even if you aren’t an activist in a dangerous locale or Dread Pirate Roberts, Tor’s hidden services are a valuable contribution to the infrastructure of the Internet.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Aug 2016 00:00:00 -0400</pubDate>
+        <link>http://little9.github.io/2016/08/28/hidden.html</link>
+        <guid isPermaLink="true">http://little9.github.io/2016/08/28/hidden.html</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>
