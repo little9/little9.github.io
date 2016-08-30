@@ -5,9 +5,47 @@
     <description></description>
     <link>http://little9.github.io/</link>
     <atom:link href="http://little9.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Aug 2016 19:08:59 -0400</pubDate>
-    <lastBuildDate>Mon, 29 Aug 2016 19:08:59 -0400</lastBuildDate>
+    <pubDate>Tue, 30 Aug 2016 09:05:59 -0400</pubDate>
+    <lastBuildDate>Tue, 30 Aug 2016 09:05:59 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Using RVM with Fabric</title>
+        <description>&lt;p&gt;It might seem strange to deploy or manage Ruby applications with a
+Python based tool, but with Fabric you can easily setup a Ruby
+enviroment. To install RVM (assuming you have curl and the build tools
+installed for your distro) you can install RVM with the following command:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code class=&quot;python&quot;&gt;
+  def install_rvm():
+      # Install the Ruby Version Manager, along with the current stable version of Ruby
+      # Install the bundler gem
+      run(&#39;gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3&#39;)
+      run(&#39;curl -sSL https://get.rvm.io | bash -s stable&#39;)
+      run(&#39;rvm install 2.3.1&#39;)
+      run(&#39;rvm use 2.3.1 &amp;amp;&amp;amp; gem install bundler&#39;)
+      &lt;/code&gt;  
+&lt;/pre&gt;
+
+&lt;p&gt;After that, you can use Fabric’s &lt;a href=&quot;http://docs.fabfile.org/en/1.12/api/core/context_managers.html&quot;&gt;context managers&lt;/a&gt; to start using that
+version of Ruby:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code class=&quot;python&quot;&gt;
+  def install_some_gem():
+      with run(&#39;rvm use 2.3.1&#39;):
+      	   run(&#39;gem install sinatra&#39;)
+	   &lt;/code&gt;
+&lt;/pre&gt;
+
+</description>
+        <pubDate>Tue, 30 Aug 2016 00:00:00 -0400</pubDate>
+        <link>http://little9.github.io/2016/08/30/rvmfab.html</link>
+        <guid isPermaLink="true">http://little9.github.io/2016/08/30/rvmfab.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Practical Tor Hidden Services</title>
