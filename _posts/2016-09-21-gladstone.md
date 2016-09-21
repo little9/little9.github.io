@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Gladstone: A node.js based BagIt utility
+title:  Gladstone\: A node.js based BagIt utility
 author: Jamie Little
 ---
 
