@@ -1,45 +1,53 @@
+@charset "UTF-8";
 body {
-    padding: 0 1em;
-    font-family: "PT Mono", monospace;
-    background: #f1f1f1;
-    transform: rotate(0.5deg);
-    max-width: 800px;
+  margin: 2.4em;
+  line-height: 1.6em;
+  font-size: 1.5em;
+  color: #495057;
+  padding: 0 1em;
+  font-family: "游ゴシック体","YuGothic","游ゴシック";
+  background: #f8f9fa;
 }
-h1,
-h2,
-h3 {
-    transform: rotate(1.5deg);
-    margin-top: 1em;
-    font-family: "PT Sans", "Microsoft Sans Serif", sans-serif;
+
+
+h2, h3 {
+  line-height: 1.2;
+  font-size: 1em; 
+  /*! color: whitesmoke; */
 }
+
+
 a {
-    text-decoration: none;
-    border-bottom: 0px;
-    transition: 0.4 ease;
-    padding: 5px;
-    background: rgba(240, 255, 115, 0.3);
-    color: black;
-    font-family: "PT Sans", "Microsoft Sans Serif", sans-serif;
-}
-a:hover {
-    background: rgba(240, 255, 115, 0.7);
-    cursor: pointer;
-}
-.site-title a {
-    background: 0;
-    border-bottom: 2px solid black;
-}
+  text-decoration: none;
+  border-bottom: 0px;
+  transition: 0.4 ease; }
+
 .external-links {
-    list-style-type: urdu;
-    padding-left: 0;
-}
+  display: inline;
+  list-style-type: none;
+  padding-left: 0; }
+
 .external-links li {
-    display: inline;
-    padding-right: 10%;
-    margin-bottom: 15%;
-    color: black;
-    transform: rotate(10deg);
+  display: inline;
+  padding-right: 10%;
+  margin-bottom: 2%; }
+
+a:link,
+a:visited {
+  color: #3bc9db; }
+
+.site-title a:link,
+a:visited {
+ color: #fa5252;
 }
+
+a:hover {
+  transition: 5s ease;
+  text-decoration: underline;
+  width: 30px; }
+
+a:active {
+  transition: 5s ease; }
+
 .social-media-list li {
-    width: 50px;
-}
+width: 50px; }
