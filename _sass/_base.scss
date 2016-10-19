@@ -1,53 +1,100 @@
 @charset "UTF-8";
 body {
-  margin: 2.4em;
-  line-height: 1.6em;
-  font-size: 1.5em;
-  color: #495057;
-  padding: 0 1em;
-  font-family: "Hiragino Maru Gothic Pro","游ゴシック体","YuGothic","游ゴシック",sans-serif;
-  background: #f8f9fa;
+  margin:2.4em;
+  line-height:1.6em;
+  font-size:1.5em;
+  color:#495057;
+  padding:0 1em;
+  font-family:"Hiragino Maru Gothic Pro","游ゴシック体","YuGothic","游ゴシック",sans-serif;
+  background:#f8f9fa;
 }
 
-
-h2, h3 {
-  line-height: 1.2;
-  font-size: 1em; 
-  /*! color: whitesmoke; */
+h2,
+h3 {
+  line-height:1.2;
+  font-size:1em;
 }
-
 
 a {
-  text-decoration: none;
-  border-bottom: 0px;
-  transition: 0.4 ease; }
-
-.external-links {
-  display: inline;
-  list-style-type: none;
-  padding-left: 0; }
-
-.external-links li {
-  display: inline;
-  padding-right: 10%;
-  margin-bottom: 2%; }
-
-a:link,
-a:visited {
-  color: #3bc9db; }
-
-.site-title a:link,
-a:visited {
- color: #fa5252;
+  text-decoration:none;
+  border-bottom:0px;
+  transition:0.4 ease;
 }
 
+.external-links {
+  display:inline;
+  list-style-type:none;
+  padding-left:0;
+}
+
+.external-links li {
+  display:inline;
+  padding-right:10%;
+  margin-bottom:2%;
+}
+
+
+
+@charset "UTF-8";
+body {
+  margin:2.4em;
+  line-height:1.6em;
+  font-size:1.5em;
+  color:#495057;
+  padding:0 1em;
+  font-family:"Hiragino Maru Gothic Pro","游ゴシック体","YuGothic","游ゴシック",sans-serif;
+  background:#f8f9fa;
+}
+
+h2,
+h3 {
+  line-height:1.2;
+  font-size:1em;
+}
+
+a {
+  text-decoration:none;
+  border-bottom:0px;
+  transition:0.4 ease;
+}
+
+.external-links {
+  display:inline;
+  list-style-type:none;
+  padding-left:0;
+}
+
+.external-links li {
+  display:inline;
+  padding-right:10%;
+  margin-bottom:2%;
+}
+
+
+.social-media-list li { width:50px; }
+
+.social-media-list li { width:50px; }
+
+a:link,a:visited {
+    transition: all .5s linear 0;
+    color: hsl(166, 47%, 53%);
+}
 a:hover {
-  transition: 5s ease;
-  text-decoration: underline;
-  width: 30px; }
-
-a:active {
-  transition: 5s ease; }
-
-.social-media-list li {
-width: 50px; }
+    color: hsl(167, 41%, 42%);
+}
+.site-title a {
+	transition: all .5s linear 0;
+	color: hsl(266, 59%, 65%);
+}
+.trigger a {
+	transition: all .5s linear 0;
+	color: hsl(40, 96%, 45%);
+}
+.site-title a:hover {
+	transition: all .5s linear 0;
+	color: hsl(263, 52%, 55%);
+}
+.trigger a:hover {
+	transition: all .5s linear 0;
+	color: hsl(32, 95%, 42%);
+}
