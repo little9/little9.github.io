@@ -1,49 +1,20 @@
 @charset "UTF-8";
+
+html { 
+  background: url(sdat.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
   margin:2.4em;
   line-height:1.6em;
   font-size:1.5em;
-  color:#495057;
+  color:#f8f9fa;
   padding:0 1em;
   font-family:"Hiragino Maru Gothic Pro","游ゴシック体","YuGothic","游ゴシック",sans-serif;
-  background:#f8f9fa;
-}
-
-h2,
-h3 {
-  line-height:1.2;
-  font-size:1em;
-}
-
-a {
-  text-decoration:none;
-  border-bottom:0px;
-  transition:0.4 ease;
-}
-
-.external-links {
-  display:inline;
-  list-style-type:none;
-  padding-left:0;
-}
-
-.external-links li {
-  display:inline;
-  padding-right:10%;
-  margin-bottom:2%;
-}
-
-
-
-@charset "UTF-8";
-body {
-  margin:2.4em;
-  line-height:1.6em;
-  font-size:1.5em;
-  color:#495057;
-  padding:0 1em;
-  font-family:"Hiragino Maru Gothic Pro","游ゴシック体","YuGothic","游ゴシック",sans-serif;
-  background:#f8f9fa;
 }
 
 h2,
