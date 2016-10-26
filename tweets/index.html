@@ -1,0 +1,17 @@
+---
+layout: default
+title: Tweets Archive
+description: All my tweets
+---
+<ul>    
+{% for tweet in site.data.tweets %}
+  <li>
+    <a class="tweet" id={{tweet.tweet_id}} href="https://twitter.com/ajamielittle/status/{{ tweet.tweet_id }}">
+    {{ tweet.text }}
+    </a>
+    <p>
+    {{ tweet.timestamp }}
+    </p>
+  </li>
+{% endfor %}
+</ul>
