@@ -1,15 +1,16 @@
 @charset "UTF-8";
 
 html { 
-  background: url(sdat.gif) no-repeat center center fixed; 
+  background: url(sdat.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: #170c23;;
 }
 
 body {
-  margin:2.4em;
+  margin:1.4em;
   line-height:1.6em;
   font-size:1.5em;
   color:#f8f9fa;
