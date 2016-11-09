@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
+html {
+  background-color: #170c23;;
+}
+
+ video {
+    position: fixed;           // Make it full screen (fixed)
+    right: 0;
+    bottom: 0;
+    z-index: -1;               // Put on background
+
+    min-width: 100%;           // Expand video
+    min-height: 100%;
+    width: auto;               // Keep aspect ratio
+    height: auto;
+
+    top: 50%;                  // Vertical center offset
+    left: 50%;                 // Horizontal center offset
+
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);         // Cover effect: compensate the offset
+
+    background: url(bkg.jpg) no-repeat;      // Background placeholder, not always needed
+    background-size: cover;
+  }
+  
+/*
 html { 
   background: url(sdat.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -8,6 +36,7 @@ html {
   background-size: cover;
   background-color: #170c23;;
 }
+*/
 
 body {
   margin:1.4em;
