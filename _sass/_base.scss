@@ -1,101 +1,19 @@
 @charset "UTF-8";
 
-html {
-  background-color: #170c23;;
-}
-
- video {
-    position: fixed;           // Make it full screen (fixed)
-    right: 0;
-    bottom: 0;
-    z-index: -1;               // Put on background
-
-    min-width: 100%;           // Expand video
-    min-height: 100%;
-    width: auto;               // Keep aspect ratio
-    height: auto;
-
-    top: 50%;                  // Vertical center offset
-    left: 50%;                 // Horizontal center offset
-
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);         // Cover effect: compensate the offset
-
-    background: url(bkg.jpg) no-repeat;      // Background placeholder, not always needed
-    background-size: cover;
-  }
-  
-/*
-html { 
-  background: url(sdat.gif) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: #170c23;;
-}
-*/
+@import "colors";
+@import "fonts";
 
 body {
-  margin:1.4em;
-  line-height:1.6em;
-  font-size:1.5em;
-  color:#f8f9fa;
-  padding:0 1em;
-  font-family:"Hiragino Maru Gothic Pro","游ゴシック体","YuGothic","游ゴシック",sans-serif;
+  background-color: $background-color;
+  margin: 1.4em;
+  line-height: 1.6em;
+  font-size: 1.5em;
+  color: $foreground-color;
+  padding: 0 1em;
+  font-family: $font-stack;
 }
 
-h2,
-h3 {
-  line-height:1.2;
-  font-size:1em;
-}
-
-a {
-  text-decoration:none;
-  border-bottom:0px;
-  transition:0.4 ease;
-}
-
-.external-links {
-  display:inline;
-  list-style-type:none;
-  padding-left:0;
-}
-
-.external-links li {
-  display:inline;
-  padding-right:10%;
-  margin-bottom:2%;
-}
-
-
-.social-media-list li { width:50px; }
-
-.social-media-list li { width:50px; }
-
-a:link,a:visited {
-    transition: all .5s linear 0;
-    color: hsl(166, 47%, 53%);
-}
-a:hover {
-    color: hsl(167, 41%, 42%);
-}
-.site-title a {
-	transition: all .5s linear 0;
-	color: hsl(266, 59%, 65%);
-}
-.trigger a {
-	transition: all .5s linear 0;
-	color: hsl(40, 96%, 45%);
-}
-.site-title a:hover {
-	transition: all .5s linear 0;
-	color: hsl(263, 52%, 55%);
-}
-.trigger a:hover {
-	transition: all .5s linear 0;
-	color: hsl(32, 95%, 42%);
+h2, h3 {
+  line-height: 1.2;
+  font-size: 1em;
 }
