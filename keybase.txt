@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jamielittle
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jamielittle.org
+  * I am jamielittle (https://keybase.io/jamielittle) on keybase.
+  * I have a public key ASBtS9NKKPBQEg7jPHX9UczNwx4iXIN1IojUrKD6qP005wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b1f32df0fbf7bf2c69202f4a97653c262f1d646c2a45c13794ac5d6088ab0aba0a",
+      "host": "keybase.io",
+      "kid": "01206d4bd34a28f050120ee33c75fd51cccdc31e225c83752288d4aca0faa8fd34e70a",
+      "uid": "a727a67324cca55c01fec1a138dcd119",
+      "username": "jamielittle"
+    },
+    "merkle_root": {
+      "ctime": 1535079280,
+      "hash": "eab405e283a96d972eccc1dc9624681b1c415eac8c06038c4138263d4f43f65a1ef76eeb5ee2283630e2b56425adc4a2b7b4dcb20ce98680593935aca8c165b5",
+      "hash_meta": "5d457f397d2fb46e435ee4ccb06822883a2e84dc9faf335f5a54a7b0236a0967",
+      "seqno": 3508618
+    },
+    "service": {
+      "entropy": "xRaJ8Rnr0V1Z3ibufo9DdsE4",
+      "hostname": "jamielittle.org",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.5.0"
+  },
+  "ctime": 1535079321,
+  "expire_in": 504576000,
+  "prev": "5e0b4ac6452f810e8ddb2fbda08a2226404f12f05fd0ccb65b488f5202b9c40b",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbUvTSijwUBIO4zx1/VHMzcMeIlyDdSKI1Kyg+qj9NOcKp3BheWxvYWTESpcCCsQgXgtKxkUvgQ6N2y+9oIoiJkBPEvBf0My2W0iPUgK5xAvEIIkcV84Bse2uJTKZ79A/P+3DlkX0Pxj7mX58VzNNFcBtAgHCo3NpZ8RAZ5JPztWMGtJ5/o8/eTfp4afx3necFmme+hqVeZbyNJlWqV74tYslS1tZIKi9A4BizA6WYwab3OjgEBcZ3bngD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOwuppp02HMUnbtMHTKCB6qZStnA4RBG87etjV5l7qK1o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jamielittle
+
+==================================================================
